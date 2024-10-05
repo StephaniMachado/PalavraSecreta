@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src.css">
+</head>
+
+<body>
+
+    <div class="Titulo">
+    
+    <h2>JOGO DA PALAVRA SECRETA</h2>
+
+    </div>
+    <div class="container">
+    
+    <label for="palavraSecreta">DIGITE A PALAVRA SECRETA:</label>
+    <br>
+    <input type="text" id="palavraSecreta">
+    <button onclick="definirPalavra()">Definir Palavra</button>   
+    <br>
+
+    <div id="palavra-secreta"></div>
+
+
+    <div id="espacos"></div>
+    
+    
+    
+    <br>
+    <label for="chute"></label>
+    <input type="text" id="letra">
+    <button onclick="adivinhar()">Adivinhar</button>
+
+
+    <div id="mensagens"></div>
+    
+    
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-content"></div>
+    </footer>
+
+    <script src="scr.js"></script>
+</body>
+</html>
